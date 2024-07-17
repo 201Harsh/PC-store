@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+nav ul li a:hover {
+    color: #9c1bf1 !important;
+    transition: all 0.2s ease-in;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1 !important;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    border: 2px solid white;
+    width: 4rem !important;
+    height: 4.5rem !important;
+    transition: all .1s ease-in;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+@media only screen and (max-width: 750px) {
+
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+        border: 2px solid white;
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+}
+
+.first {
+    height: 650px;
+    margin-top: 65px;
+}
+
+.first h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.first p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 250;
+    text-align: center;
+}
+
+.pc_build {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 430px;
+    background: url('../img/amd.jpg') no-repeat center;
+    margin: 0px 12px;
+    margin-top: 43px;
+    cursor: pointer;
+}
+
+.right {
+    width: 50%;
+    height: 430px;
+    background: url('../img/intel.jpg') no-repeat center;
+    background-size: cover;
+    margin: 0 12px;
+    margin-top: 43px;
+    cursor: pointer;
+}
+
+
+.left:hover {
+
+    animation: fadeIn 0.3s backwards;
+
+    .black {
+        display: block;
+    }
+
+    .na {
+        display: flex;
+    }
+}
+
+.right:hover {
+
+    animation: fadeIn 0.3s backwards;
+
+    .black {
+        display: block;
+    }
+
+    .na1 {
+        display: flex;
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.7;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.black {
+    height: 100%;
+    width: 100%;
+    background-color: #0000009c;
+    display: none;
+}
+
+.na {
+    display: none;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    bottom: 1000px;
+    transform: translateY(100px);
+}
+
+.na1 {
+    display: none;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    bottom: 1000px;
+    transform: translateY(100px);
+}
+
+.na h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 350;
+    color: white;
+    background-color: #8d2a2a;
+    text-transform: uppercase;
+}
+
+.na1 h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 350;
+    color: white;
+    background-color: #1956a7;
+    text-transform: uppercase;
+}
+
+.second {
+    background: url('../img/pc_banner.jpg') no-repeat center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.pc_now h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-top: 122px;
+}
+
+.pc_now h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin-top: 32px;
+}
+
+.black1 {
+    height: 100%;
+    width: 100%;
+    background-color: #00000086;
+}
+
+.pc_body p {
+    width: 40%;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    margin-top: 32px;
+}
+
+.pc_now_btn {
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 42px;
+    display: flex;
+}
+
+.buy_btn {
+    width: 50%;
+    padding: 12px 12px;
+    background: transparent;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 250;
+    border: 2px solid white;
+    color: white;
+    margin-left: 32px;
+}
+
+.buy_btn1 {
+    width: 50%;
+    padding: 12px 12px;
+    background: transparent;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 250;
+    color: white;
+    border: 2px solid white;
+    margin-left: 32px;
+    background-color: #5b1086;
+}
+
+.buy_btn1:hover {
+    background: transparent;
+    border: 2px solid white;
+    transition: all 0.3s ease-out;
+}
+
+.buy_btn:hover {
+    transition: all 0.3s ease-in;
+    background: #3b3b3b;
+    border: 2px solid white;
+}
+
+.py-5 h1,
+p {
+    font-family: "Poppins", sans-serif;
+}
+
+.py-4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 350;
+}
+
+@media only screen and (max-width: 770px) {
+    .first {
+        height: auto;
+    }
+
+    .pc_build {
+        display: block;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        margin: 0;
+        margin-top: 43px;
+    }
+
+    .second {
+        height: 700px;
+        margin-top: 42px;
+    }
+
+    .pc_body p {
+        width: 90%;
+    }
+
+    .pc_now_btn {
+        width: 100%;
+    }
+
+    .buy_btn1 {
+        margin-left: 10px;
+    }
+
+    .buy_btn {
+        margin-right: 10px;
+    }
+}
